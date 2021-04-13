@@ -1,0 +1,3 @@
+---
+foaf_name: Plato
+---
