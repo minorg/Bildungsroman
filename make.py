@@ -11,7 +11,6 @@ from paradicms_etl.loaders.rdf_file_loader import RdfFileLoader
 from paradicms_etl.models.collection import Collection
 from paradicms_etl.models.institution import Institution
 from paradicms_etl.models.rights import Rights
-from paradicms_etl.models.rights_value import RightsValue
 from paradicms_etl.transformers.markdown_directory_transformer import (
     MarkdownDirectoryTransformer,
 )
@@ -26,17 +25,9 @@ class Pipeline(_Pipeline):
         default_institution = Institution(
             name="Bildungsroman",
             rights=Rights(
-                holder=RightsValue(
-                    text="Original text Copyright Minor Gordon. Other text and images copyright their respective holders."
-                ),
-                license=RightsValue(
-                    text="CC BY-NC-SA 3.0",
-                    uri=URIRef("https://creativecommons.org/licenses/by-nc-sa/3.0/"),
-                ),
-                statement=RightsValue(
-                    text="In Copyright",
-                    uri=URIRef("http://rightsstatements.org/vocab/InC/1.0/"),
-                ),
+                holder="Original text Copyright Minor Gordon. Other text and images copyright their respective holders.",
+                license=URIRef("https://creativecommons.org/licenses/by-nc-sa/3.0/"),
+                statement=URIRef("http://rightsstatements.org/vocab/InC/1.0/"),
             ),
             uri=MarkdownDirectoryTransformer.model_uri(
                 pipeline_id=self.ID, model_type="institution", model_id="default"
