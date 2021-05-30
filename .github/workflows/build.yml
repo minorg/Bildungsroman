@@ -14,9 +14,10 @@ jobs:
       - run: rm -fr .paradicms
       - uses: paradicms/etl-action@v1-beta
         with:
+          debug: 1
           input_data: Passion
           input_format: markdown
-          output_data: .paradicms/data/loaded
+          output_data: .paradicms/data/loaded/Bildungsroman.ttl
           output_format: ttl-rdf
         if: steps.extract_branch.outputs.branch == 'main'
       - run: cat .paradicms/data/loaded/Bildungsroman.ttl
