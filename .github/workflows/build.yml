@@ -8,7 +8,7 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v2
       - run: rm -fr paradicms
-      - uses: paradicms/etl-action@master
+      - uses: paradicms/etl-action@v1-beta
         with:
           input_data: Passion
           input_format: markdown
