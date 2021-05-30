@@ -19,4 +19,4 @@ jobs:
           output_data: .paradicms/data/loaded
           output_format: ttl-rdf
         if: steps.extract_branch.outputs.branch == 'main'
-      # - run: cat .paradicms/data/loaded/Bildungsroman.ttl
+      - run: cat .paradicms/data/loaded/Bildungsroman.ttl
