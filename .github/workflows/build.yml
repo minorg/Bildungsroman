@@ -24,7 +24,7 @@ jobs:
           debug: 1
           input_data: current-branch/Passion
           input_format: markdown
-          output_data: gh-pages/Bildungsroman.ttl
+          output_data: gh-pages-branch/Bildungsroman.ttl
           output_format: ttl-rdf
         if: steps.extract_branch.outputs.branch == 'main'
       - name: Commit GitHub Pages
