@@ -19,6 +19,11 @@ jobs:
           path: gh-pages-branch
           ref: gh-pages
         if: steps.extract_branch.outputs.branch == 'main'
+      - name: Clear GitHub Pages
+        run: |
+          cd gh-pages-branch
+          rm -fr *
+          touch .nojekyll
       - uses: paradicms/etl-action@v1-beta
         with:
           debug: 1
@@ -30,10 +35,15 @@ jobs:
       - name: Commit GitHub Pages
         run: |
           cd gh-pages-branch
-          rm -fr *
-          touch .nojekyll
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Update GitHub Pages" -a || true
+        if: steps.extract_branch.outputs.branch == 'main'
+      - name: Push GitHub Pages
+        uses: ad-m/github-push-action@master
+        with:
+          branch: gh-pages
+          directory: gh-pages-branch
+          github_token: ${{ secrets.GITHUB_TOKEN }}
         if: steps.extract_branch.outputs.branch == 'main'
