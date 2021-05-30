@@ -9,14 +9,31 @@ jobs:
         shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF##*/})"
         id: extract_branch
-      - name: Check out the repo
+      - name: Check out the current branch
         uses: actions/checkout@v2
+        with:
+          path: current-branch
+      - name: Check out the gh-pages branch
+        uses: actions/checkout@v2
+        with:
+          path: gh-pages-branch
+          ref: gh-pages
+        if: steps.extract_branch.outputs.branch == 'main'
       - uses: paradicms/etl-action@v1-beta
         with:
           debug: 1
-          input_data: Passion
+          input_data: current-branch/Passion
           input_format: markdown
-          output_data: .paradicms/data/loaded/Bildungsroman.ttl
+          output_data: gh-pages/Bildungsroman.ttl
           output_format: ttl-rdf
         if: steps.extract_branch.outputs.branch == 'main'
-      - run: cat .paradicms/data/loaded/Bildungsroman.ttl
+      - name: Commit GitHub Pages
+        run: |
+          cd gh-pages-branch
+          rm -fr *
+          touch .nojekyll
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update GitHub Pages" -a || true
+        if: steps.extract_branch.outputs.branch == 'main'
