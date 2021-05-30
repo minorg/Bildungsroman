@@ -11,7 +11,6 @@ jobs:
         id: extract_branch
       - name: Check out the repo
         uses: actions/checkout@v2
-      - run: rm -fr .paradicms
       - uses: paradicms/etl-action@v1-beta
         with:
           debug: 1
