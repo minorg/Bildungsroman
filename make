@@ -2,10 +2,11 @@
 
 cd "$(dirname "$0")"
 
-export INPUT_DEBUG=1
+export GITHUB_REPOSITORY=minorg/Bildungsroman
+#export INPUT_DEBUG=1
 export INPUT_INPUT_DATA=$PWD/Passion
 export INPUT_INPUT_FORMAT=markdown
-export INPUT_OUTPUT_DATA=$PWD/.paradicms/data/loaded/Bildingsroman.ttl
+export INPUT_OUTPUT_DATA=$PWD/.paradicms/data/loaded/Bildungsroman.ttl
 export INPUT_OUTPUT_FORMAT=ttl-rdf
 export PYTHONPATH=$PYTHONPATH:$PWD/../paradicms/etl
 
