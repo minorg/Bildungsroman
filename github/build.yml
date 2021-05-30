@@ -1,0 +1,23 @@
+name: Build
+on: push
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v2
+      - run: rm -fr paradicms
+      - name:
+        uses: paradicms/etl-action
+        with:
+          input_data: Passion
+          input_format: markdown
+          output_data: .paradicms/data/loaded
+          output_format: ttl-rdf
+      - run: cat .paradicms/data/loaded/Bildungsroman.ttl
+      - name: Extract branch name
+        shell: bash
+        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF##*/})"
+        id: extract_branch
+        # if: steps.extract_branch.outputs.branch == 'master'
