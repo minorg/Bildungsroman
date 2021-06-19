@@ -27,6 +27,7 @@ jobs:
       - uses: paradicms/etl-action@v1-beta
         with:
           debug: 1
+          id: "Bildungsroman"
           input_data: current-branch/Passion
           input_format: markdown
           output_data: gh-pages-branch/
