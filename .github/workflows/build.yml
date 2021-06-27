@@ -31,7 +31,7 @@ jobs:
           input_data: current-branch/Passion
           input_format: markdown
           output_data: gh-pages-branch/
-          output_format: bootstrap-collection-gui
+          output_format: bootstrap-exhibition-gui
         if: steps.extract_branch.outputs.branch == 'main'
       - name: Commit GitHub Pages
         run: |
