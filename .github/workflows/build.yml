@@ -27,10 +27,10 @@ jobs:
       - uses: paradicms/etl-action@v1-beta
         with:
           debug: 1
-          gui_base_url_path: /Bildungsroman
+          gui_base_url_path: /Bildungsroman/Passion
           input_data: current-branch/Passion
           input_format: markdown
-          output_data: gh-pages-branch/
+          output_data: gh-pages-branch/Passion
           output_format: bootstrap-exhibition-gui
         if: steps.extract_branch.outputs.branch == 'main'
       - name: Commit GitHub Pages
