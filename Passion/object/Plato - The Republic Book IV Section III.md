@@ -1,6 +1,5 @@
 ---
 bibliographicCitation: Plato. The Republic of Plato. Translated by Benjamin Jowett, Henry Frowde - Oxford University Press, 1888.
-creator: </person/Plato>
 license: <http://creativecommons.org/licenses/publicdomain/>
 relation: <http://www.wikidata.org/entity/Q123397>
 rights: <https://creativecommons.org/publicdomain/mark/1.0/>
