@@ -27,11 +27,12 @@ jobs:
       - uses: paradicms/gui-action@v1-beta
         with:
           debug: 1
-          gui_base_url_path: /Bildungsroman/Passion
+          base_url_path: /Bildungsroman/Passion
+          configuration_json_file_path: current-branch/Passion/configuration.json
           input_data: current-branch/Passion
           input_format: markdown
           output_data: gh-pages-branch/Passion
-          output_format: bootstrap-exhibition-gui
+          output_format: bootstrap-exhibition
         if: steps.extract_branch.outputs.branch == 'main'
       - name: Commit GitHub Pages
         run: |
