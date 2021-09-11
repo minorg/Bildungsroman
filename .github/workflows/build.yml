@@ -24,7 +24,7 @@ jobs:
           cd gh-pages-branch
           rm -fr *
           touch .nojekyll
-      - uses: paradicms/etl-action@v1-beta
+      - uses: paradicms/gui-action@v1-beta
         with:
           debug: 1
           gui_base_url_path: /Bildungsroman/Passion
