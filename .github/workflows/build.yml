@@ -27,7 +27,7 @@ jobs:
       - uses: paradicms/gui-action@v1-beta
         with:
           debug: 1
-          base_url_path: /Bildungsroman/Passion
+          base_url_path: /Passion
           configuration_json_file_path: current-branch/Passion/configuration.json
           input_data: current-branch/Passion
           input_format: markdown
