@@ -24,6 +24,7 @@ jobs:
           cd gh-pages-branch
           rm -fr *
           touch .nojekyll
+          echo "bildungsroman.minorgordon.net" >CNAME
       - uses: paradicms/gui-action@v1-beta
         with:
           debug: 1
