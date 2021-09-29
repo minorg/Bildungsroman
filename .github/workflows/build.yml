@@ -5,48 +5,18 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF##*/})"
-        id: extract_branch
-      - name: Check out the current branch
-        uses: actions/checkout@v2
-        with:
-          path: current-branch
-      - name: Check out the gh-pages branch
-        uses: actions/checkout@v2
-        with:
-          path: gh-pages-branch
-          ref: gh-pages
-        if: steps.extract_branch.outputs.branch == 'main'
-      - name: Clear GitHub Pages
-        run: |
-          cd gh-pages-branch
-          rm -fr *
-          touch .nojekyll
-          echo "bildungsroman.minorgordon.net" >CNAME
+      - uses: actions/checkout@v2
       - uses: paradicms/gui-action@v1-beta
         with:
           debug: 1
           base_url_path: /Passion
-          configuration_json_file_path: current-branch/Passion/configuration.json
-          input_data: current-branch/Passion
+          configuration_json_file_path: ./Passion/configuration.json
+          input_data: ./Passion
           input_format: markdown
-          output_data: gh-pages-branch/Passion
+          output_data: ./github/pages/Passion
           output_format: bootstrap-exhibition
-        if: steps.extract_branch.outputs.branch == 'main'
-      - name: Commit GitHub Pages
-        run: |
-          cd gh-pages-branch
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "Update GitHub Pages" -a || true
-        if: steps.extract_branch.outputs.branch == 'main'
-      - name: Push GitHub Pages
-        uses: ad-m/github-push-action@master
+      - uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-pages
-          directory: gh-pages-branch
+          cname: bildungsroman.minorgordon.net
           github_token: ${{ secrets.GITHUB_TOKEN }}
-        if: steps.extract_branch.outputs.branch == 'main'
+          publish_dir: ./github/pages
