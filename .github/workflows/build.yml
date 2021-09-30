@@ -10,7 +10,7 @@ jobs:
         with:
           debug: 1
           base_url_path: /Passion
-          configuration_json_file_path: ./Passion/configuration.json
+          configuration_json_file_path: ./configuration.json
           input_data: ./Passion
           input_format: markdown
           output_data: ./github/pages/Passion
