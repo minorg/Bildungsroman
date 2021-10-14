@@ -15,6 +15,15 @@ jobs:
           input_format: markdown
           output_data: ./github/pages/Passion
           output_format: bootstrap-exhibition
+      - uses: paradicms/gui-action@v1-beta
+        with:
+          debug: 1
+          base_url_path: /Thinker-Doer
+          configuration_json_file_path: ./configuration.json
+          input_data: ./Thinker-Doer
+          input_format: markdown
+          output_data: ./github/pages/Thinker-Doer
+          output_format: bootstrap-exhibition
       - uses: peaceiris/actions-gh-pages@v3
         with:
           cname: bildungsroman.minorgordon.net
