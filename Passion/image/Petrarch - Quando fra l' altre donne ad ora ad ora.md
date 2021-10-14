@@ -1,5 +1,4 @@
 ---
-license: <http://creativecommons.org/licenses/publicdomain/>
-rights: <http://creativecommons.org/publicdomain/mark/1.0/>
+license: <http://creativecommons.org/publicdomain/mark/1.0/>
 source: <http://commons.wikimedia.org/wiki/File:Francesco_Petrarca01.jpg>
 ---
