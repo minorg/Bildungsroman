@@ -1,0 +1,5 @@
+---
+license: <http://creativecommons.org/publicdomain/mark/1.0/>
+rightsHolder: Los Angeles County Museum of Art
+source: <http://collections.lacma.org/node/240405>
+---
