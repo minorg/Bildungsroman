@@ -1,0 +1,3 @@
+---
+license: <http://creativecommons.org/publicdomain/mark/1.0/>
+---
