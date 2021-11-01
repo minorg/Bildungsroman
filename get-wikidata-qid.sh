@@ -13,3 +13,6 @@ python3 -m paradicms_etl.pipelines.wikidata_qid_to_markdown_directory_pipeline \
   --markdown-directory-path $COLLECTION \
   --pipeline-id $COLLECTION \
   $QID
+
+rm -fr $COLLECTION/license
+rm -fr $COLLECTION/rights_statement
