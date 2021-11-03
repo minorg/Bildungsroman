@@ -1,4 +1,5 @@
 ---
+creator: </person/Vincent van Gogh>
 relation: <http://www.wikidata.org/entity/Q9162658>
 ---
 
