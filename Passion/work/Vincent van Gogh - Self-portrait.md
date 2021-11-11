@@ -1,4 +1,7 @@
 ---
+abstract:
+    creator: </person/Jack Kerouac>
+    rights: <http://rightsstatements.org/vocab/InC/1.0/>
 creator: </person/Vincent van Gogh>
 relation: <http://www.wikidata.org/entity/Q9162658>
 ---
