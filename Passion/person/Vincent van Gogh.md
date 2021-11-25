@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q5582>
+relation:
+- <http://www.wikidata.org/entity/Q5582>
+- <http://en.wikipedia.org/wiki/Vincent_van_Gogh>
 ---

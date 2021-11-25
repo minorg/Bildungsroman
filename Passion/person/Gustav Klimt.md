@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q34661>
+relation:
+- <http://www.wikidata.org/entity/Q34661>
+- <http://en.wikipedia.org/wiki/Gustav_Klimt>
 ---
