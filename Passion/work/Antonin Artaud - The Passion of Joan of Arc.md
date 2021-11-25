@@ -1,4 +1,4 @@
 ---
 creator: </person/Antonin Artaud>
-relation: <http://www.wikidata.org/wiki/Q51520>
+relation: <http://www.wikidata.org/entity/Q51520>
 ---

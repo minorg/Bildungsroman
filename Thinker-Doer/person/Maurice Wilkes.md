@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q62857>
+relation:
+- <http://www.wikidata.org/entity/Q62857>
+- <http://en.wikipedia.org/wiki/Maurice_Wilkes>
 ---

@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q102289>
+relation:
+- <http://www.wikidata.org/entity/Q102289>
+- <http://en.wikipedia.org/wiki/Buckminster_Fuller>
 ---

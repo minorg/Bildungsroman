@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q92760>
+relation:
+- <http://www.wikidata.org/entity/Q92760>
+- <http://en.wikipedia.org/wiki/Claude_Shannon>
 ---

@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q7251>
+relation:
+- <http://www.wikidata.org/entity/Q7251>
+- <http://en.wikipedia.org/wiki/Alan_Turing>
 ---

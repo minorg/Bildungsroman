@@ -3,7 +3,7 @@ abstract:
     creator: </person/Rainer Maria Rilke>
     license: <http://creativecommons.org/publicdomain/mark/1.0/>
 creator: </person/Auguste Rodin>
-relation: <http://www.wikidata.org/wiki/Q51520>
+relation: <http://www.wikidata.org/entity/Q51520>
 ---
 
 > Who, if I cried out, would hear me among the Angelic  
