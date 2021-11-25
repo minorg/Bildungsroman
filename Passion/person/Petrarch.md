@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q1401>
+relation:
+- <http://www.wikidata.org/entity/Q1401>
+- <http://en.wikipedia.org/wiki/Petrarch>
 ---

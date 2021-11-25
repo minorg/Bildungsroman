@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q255>
+relation:
+- <http://www.wikidata.org/entity/Q255>
+- <http://en.wikipedia.org/wiki/Ludwig_van_Beethoven>
 ---

@@ -4,7 +4,9 @@ abstract:
     creator: </person/Maurice Wilkes>
     rights: <http://rightsstatements.org/vocab/InC/1.0/>
 creator: </person/Alan Turing>
-relation: <http://www.wikidata.org/entity/Q937690>
+relation:
+- <http://www.wikidata.org/entity/Q937690>
+- <http://en.wikipedia.org/wiki/Pilot_ACE>
 ---
 
 > Although a mathematician, Turing took quite an interest in the engineering side of computer design. There was some discussion in 1947 as to whether a cheaper substance than mercury could not be found for use as an ultrasonic delay medium. Turing's contribution to this discussion was to advocate the use of gin, which he said contained alcohol and water in just the right proportions to give a zero temperature coefficient of propagation velocity at room temperature.

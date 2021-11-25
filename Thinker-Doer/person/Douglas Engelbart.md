@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q92614>
+relation:
+- <http://www.wikidata.org/entity/Q92614>
+- <http://en.wikipedia.org/wiki/Douglas_Engelbart>
 ---

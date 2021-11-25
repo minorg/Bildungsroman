@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q455076>
+relation:
+- <http://www.wikidata.org/entity/Q455076>
+- <http://en.wikipedia.org/wiki/Christopher_Alexander>
 ---

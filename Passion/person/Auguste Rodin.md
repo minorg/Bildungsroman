@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q30755>
+relation:
+- <http://www.wikidata.org/entity/Q30755>
+- <http://en.wikipedia.org/wiki/Auguste_Rodin>
 ---

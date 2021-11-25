@@ -1,3 +1,5 @@
 ---
-relation: <http://www.wikidata.org/entity/Q92604>
+relation:
+- <http://www.wikidata.org/entity/Q92604>
+- <http://en.wikipedia.org/wiki/Niklaus_Wirth>
 ---

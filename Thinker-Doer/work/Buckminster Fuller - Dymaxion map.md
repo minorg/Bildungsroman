@@ -4,7 +4,9 @@ abstract:
     creator: "Lloyd Steven Sieden"
     rights: <http://rightsstatements.org/vocab/InC/1.0/>
 creator: </person/Buckminster Fuller>    
-relation: <http://www.wikidata.org/entity/Q581192>
+relation:
+- <http://www.wikidata.org/entity/Q581192>
+- <http://en.wikipedia.org/wiki/Dymaxion_map>
 ---
 
 
