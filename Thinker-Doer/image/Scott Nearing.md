@@ -1,0 +1,4 @@
+---
+rights: <http://rightsstatements.org/vocab/NKC/1.0/>
+source: Library of Congress
+---
