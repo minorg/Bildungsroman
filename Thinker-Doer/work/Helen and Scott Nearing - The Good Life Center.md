@@ -4,7 +4,7 @@ abstract:
   creator: </person/Helen Nearing>
   rights: <http://rightsstatements.org/vocab/InC/1.0/>
 creator: </person/Scott Nearing>
-page: <http://goodlife.org>
+foaf_page: <http://goodlife.org>
 ---
 
 > The value of doing something does not lie in the ease or difficulty, the probability or improbability of its achievement, but in the vision, the plan, the determination and the perseverance, the effort and the struggle which go into the project. Life is enriched by aspiration and effort, rather than by acquisition and accumulation.”
