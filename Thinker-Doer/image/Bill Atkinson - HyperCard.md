@@ -1,5 +1,6 @@
 ---
+creator: 37Hz
 license: <http://creativecommons.org/licenses/by/2.0/>
 rights: <http://rightsstatements.org/vocab/InC/1.0/>
-rightsHolder: Computer Laboratory, University of Cambridge
+source: <https://www.flickr.com/photos/37hz/9842400043>
 ---
