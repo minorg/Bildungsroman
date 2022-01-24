@@ -1,5 +1,0 @@
----
-relation:
-- <http://www.wikidata.org/entity/Q123397>
-- <http://en.wikipedia.org/wiki/Plato>
----

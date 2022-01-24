@@ -1,5 +1,5 @@
 ---    
-creator: </person/Ludwig van Beethoven>
+creator: <md:person:Ludwig van Beethoven>
 license: <http://creativecommons.org/publicdomain/mark/1.0/>
 relation:
 - <http://www.wikidata.org/entity/Q1811139>

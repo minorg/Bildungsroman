@@ -1,5 +1,0 @@
----
-relation:
-- <http://www.wikidata.org/entity/Q187166>
-- <http://en.wikipedia.org/wiki/Antonin_Artaud>
----

@@ -1,6 +1,0 @@
----
-creator: </person/Antonin Artaud>
-relation:
-- <http://www.wikidata.org/entity/Q51520>
-- <http://en.wikipedia.org/wiki/The_Passion_of_Joan_of_Arc>
----

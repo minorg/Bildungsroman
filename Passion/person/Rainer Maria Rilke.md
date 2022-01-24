@@ -1,5 +1,0 @@
----
-relation:
-- <http://www.wikidata.org/entity/Q76483>
-- <http://en.wikipedia.org/wiki/Rainer_Maria_Rilke>
----

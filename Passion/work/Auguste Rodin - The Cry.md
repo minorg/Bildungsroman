@@ -1,6 +1,6 @@
 ---
 abstract:
-    creator: </person/Rainer Maria Rilke>
+    creator: <md:person:Rainer Maria Rilke>
     license: <http://creativecommons.org/publicdomain/mark/1.0/>
 creator: </person/Auguste Rodin>
 ---

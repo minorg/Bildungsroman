@@ -1,5 +1,0 @@
----
-relation:
-- <http://www.wikidata.org/entity/Q160534>
-- <http://en.wikipedia.org/wiki/Jack_Kerouac>
----
