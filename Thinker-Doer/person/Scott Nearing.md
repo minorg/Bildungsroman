@@ -1,5 +1,0 @@
----
-relation:
-- <http://en.wikipedia.org/wiki/Scott_Nearing>
-- <http://www.wikidata.org/entity/Q1434014>
----

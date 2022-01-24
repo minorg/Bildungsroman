@@ -1,5 +1,0 @@
----
-relation:
-- <http://www.wikidata.org/entity/Q762>
-- <http://en.wikipedia.org/wiki/Leonardo_da_Vinci>
----
